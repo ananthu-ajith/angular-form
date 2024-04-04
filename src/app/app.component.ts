@@ -12,7 +12,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'forms';
-  form ={
+  form:any ={
     fullname:'',
     username:'',
     email:'',

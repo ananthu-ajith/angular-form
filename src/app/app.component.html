@@ -136,7 +136,7 @@
         required
         minlength="6"
         maxlength="20"
-        pattern="^(?=.[a-zA-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%*?&]{6,20}$"
+        pattern="^(?=.*[a-zA-Z])(?=.*\d)(?=.*[@$!%?&])[A-Za-z\d@$!%*?&]{6,20}$"
         [ngClass]="{ 'is-invalid': f.submitted && password.errors }"
       />
 
